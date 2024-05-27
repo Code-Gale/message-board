@@ -1,0 +1,11 @@
+<template>
+    <div>
+        <h3>
+            Messages
+        </h3>
+        <ul>
+            <li>First</li>
+            <li>Second</li>
+        </ul>
+    </div>
+</template>
