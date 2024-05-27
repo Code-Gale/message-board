@@ -3,9 +3,17 @@
         <h3>
             Messages
         </h3>
-        <ul>
-            <li>First</li>
-            <li>Second</li>
+        <ul v-for="message in messages">
+            <li>{{ message }}</li>
         </ul>
     </div>
 </template>
+<script>
+export default {
+    data(){
+        return {
+            messages : ["hello", "hi", "waddup", "nihao"]
+        }
+    }
+}
+</script>
